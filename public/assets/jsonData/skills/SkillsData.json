@@ -1,0 +1,39 @@
+[
+    {
+        "id": 1,
+        "title": "Web Development",
+        "text": "I specialize in creating tailored digital products. Let's transform your vision into a reality.",
+        "icon": "5.png",
+        "thumbFull": "",
+        "challenges": "",
+        "skills": {
+            "0": "hello",
+            "1": "how",
+            "2": "are",
+            "3": "you"
+        },
+        "why": "",
+        "showSkills1": {
+            "title": "Speed Optimization",
+            "text": "SEO"
+        },
+        "showSkills2": {
+            "title": "Frontend Development",
+            "text": ""
+        }
+    },
+    {
+        "id": 2,
+        "title": "Data Analytics",
+        "text": "Leveraging Google Analytics and Python's data science capabilities, I transform raw data into actionable insights",
+        "icon": "6.png",
+        "thumbFull": ""
+    },
+    {
+        "id": 3,
+        "title": "Content Management",
+        "text": "Let's skyrocket your online visibility. I'll optimize your website to attract more organic traffic and outrank your competitors.",
+        "icon": "3.png",
+        "thumbFull": ""
+    }
+]

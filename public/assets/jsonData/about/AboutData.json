@@ -1,0 +1,20 @@
+[
+    {
+        "id": 2,
+        "icon": "fab fa-node",
+        "designation": " JS Developer",
+        "status": ""
+    },
+    {
+        "id": 3,
+        "icon": "fab fa-laravel",
+        "designation": "PHP Developer",
+        "status": ""
+    },
+    {
+        "id": 1,
+        "icon": "fab fa-wordpress",
+        "designation": "WordPress Developer",
+        "status": ""
+    }
+]

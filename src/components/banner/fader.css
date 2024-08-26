@@ -1,0 +1,22 @@
+:root {
+  --bg-gradient: linear-gradient(328deg, var(--color-secondary) 0%, var(--color-primary) 70%);
+	--bg-gradient: linear-gradient(45deg, var(--color-secondary) 0%, var(--color-primary) 70%);
+}
+.fading-word {
+    /* font-size: 48px;
+    font-weight: bold; */
+    background: var(--bg-gradient) !important;
+                -webkit-background-clip: text !important;
+                background-clip: text !important;
+                color: transparent !important ;  /* Link color on hover */
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .fading-word.visible {
+    opacity: 1;
+    background: var(--bg-gradient) !important;
+                -webkit-background-clip: text !important;
+                background-clip: text !important;
+                color: transparent !important ;  /* Link color on hover */
+  }

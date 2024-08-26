@@ -1,0 +1,109 @@
+import React from "react";
+import Link from "next/link";
+import Image from "next/image";
+import shape14 from "@/assets/img/shape/14.png";
+import ResumeData from "@/assets/jsonData/resume/ResumeData.json";
+import Education from './Education';
+import SingleSkill from '../skills/SingleSkill';
+
+const Resume2 = () => {
+  return (
+    <>
+      <div id="skills" className="services-single-content section">
+        <div  className="shape-right-top-extra bell">
+          <Image src={shape14} alt="Shape bell" />
+        </div>
+        <div  className="container">
+          <div  className="experience-content-box">
+            <div  className="row">
+              <div className="col-xl-10 offset-xl-1">
+                <div className="nav nav-tabs text-center resume-tab-navs" id="nav-tab" role="tablist">
+                  {/* <button
+                    className="nav-link "
+                    id="nav-id-1"
+                    data-bs-toggle="tab"
+                    data-bs-target="#tab1"
+                    type="button"
+                    role="tab"
+                    aria-controls="tab1"
+                    aria-selected="true"
+                  >
+                    Biography <strong>01</strong>
+                  </button> */}
+                  <button
+                    className="nav-link active"
+                    id="nav-id-2"
+                    data-bs-toggle="tab"
+                    data-bs-target="#tab2"
+                    type="button"
+                    role="tab"
+                    aria-controls="tab2"
+                    aria-selected="false"
+                  >
+                    Skills 
+                  </button>
+                  <button
+                    className="nav-link"
+                    id="nav-id-3"
+                    data-bs-toggle="tab"
+                    data-bs-target="#tab3"
+                    type="button"
+                    role="tab"
+                    aria-controls="tab3"
+                    aria-selected="false"
+                  >
+                    Education 
+                  </button>
+                </div>
+
+                <div className="tab-content resume-tab-content" id="nav-tabContent">
+                  <div className="tab-pane fade " id="tab1" role="tabpanel" aria-labelledby="nav-id-1">
+                    <div className="row">
+                      <div className="col-lg-12">
+                        <ul className="biography-table">
+                          {ResumeData.biographyData.map(data => (
+                            <li key={data.id}>
+                              <h5>{data.title}</h5>
+                              <p>{data.info}</p>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="tab-pane fade show active" id="tab2" role="tabpanel" aria-labelledby="nav-id-2">
+                    <div className="row align-center">
+                      <div className="col-lg-12">
+                        <ul className="skill-table row" >
+                          {ResumeData.skillData.map(skill => (
+                            <SingleSkill skill={skill} key={skill.id} />
+                          ))}
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="nav-id-3">
+                    <div className="row">
+                      <div className="col-lg-12">
+                        <ul className="education-table">
+                          {ResumeData.educationData.map(data => (
+                            <Education data={data} key={data.id} />
+                          ))}
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default Resume2;
