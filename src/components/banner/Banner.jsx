@@ -30,16 +30,10 @@ const Banner = () => {
                 <h3 className="title">
                   <span className="header-caption" id="page-top">
                     <Fader />
-                    {/* <ReactTyped
-                      strings={textLines}
-                      typeSpeed={35}
-                      backSpeed={35}
-                      backDelay={2000}
-                      loop
-                    ></ReactTyped> */}
+                   
                   </span>
                 </h3>
-                <div className="button mt-55">
+                <div className="button mt-55 ">
                   <Link className="btn btn-md circle btn-dark" target="_blank" href="https://docs.google.com/document/d/1eTmLsZ3AbMY3njWI265Y4WPVeXqiAXka0bAiOi17vlI/edit?usp=sharing">
                     My Resume
                   </Link>
