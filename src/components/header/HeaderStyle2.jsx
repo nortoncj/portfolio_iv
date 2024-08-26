@@ -11,7 +11,7 @@ import useSidebarMenu from '@/hooks/useSidebarMenu';
 const HeaderStyle2 = () => {
 
     const isMenuSticky = useStickyMenu();
-    const { isOpen, openMenu, closeMenu } = useSidebarMenu();
+    const { isOpen, openMenu, closeMenu } =  useSidebarMenu();
 
     return (
         <>
