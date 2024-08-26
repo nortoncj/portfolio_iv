@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import shape4 from "@/assets/img/shape/4.png";
+import shape4 from "../../../public/assets/img/shape/4.png";
 import shape7 from "@/assets/img/shape/7.png";
 import shape72 from "@/assets/img/shape/72.png";
 import Image from "next/image";
