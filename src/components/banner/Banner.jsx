@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import shape4 from "../../../public/assets/img/shape/4.png";
+import shape4 from "@/assets/img/shape/4.png";
 import shape7 from "@/assets/img/shape/7.png";
 import shape72 from "@/assets/img/shape/72.png";
 import Image from "next/image";
@@ -33,7 +33,7 @@ const Banner = () => {
                    
                   </span>
                 </h3>
-                <div className="button mt-55 ">
+                <div className="button mt-55">
                   <Link className="btn btn-md circle btn-dark" target="_blank" href="https://docs.google.com/document/d/1eTmLsZ3AbMY3njWI265Y4WPVeXqiAXka0bAiOi17vlI/edit?usp=sharing">
                     My Resume
                   </Link>

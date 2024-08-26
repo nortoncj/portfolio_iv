@@ -1,6 +1,6 @@
 "use client"
 import React from 'react';
-import logo from '../../../public/assets/img/logo.png';
+import logo from '@/assets/img/logo.png';
 import Icon from '@/assets/img/favicon.png';
 import Image from 'next/image';
 import { Link } from 'react-scroll';

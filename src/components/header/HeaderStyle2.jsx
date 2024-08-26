@@ -1,7 +1,7 @@
 "use client"
 import React from 'react';
-import logo from '../../../public/assets/img/logo.png';
-import Icon from '../../../public/assets/img/favicon.png';
+import logo from '@/assets/img/logo.png';
+import Icon from '@/assets/img/favicon.png';
 import Image from 'next/image';
 import Link from 'next/link';
 import useStickyMenu from '@/hooks/useStickyMenu';
