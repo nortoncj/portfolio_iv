@@ -2,7 +2,7 @@
 import Link from 'next/link';
 import React, {useEffect} from 'react';
 import Image from 'next/image';
-import logo from '@/assets/img/logo/logo.png';
+import logo from '@/assets/img/logo-dark.png';
 
 
 const MainMenu = () => {
