@@ -1,7 +1,7 @@
 "use client"
 import React from 'react';
 import Icon from '@/assets/img/favicon.png';
-import Logo from '@/assets/img/logo-dark.png';
+import logo from '@/assets/img/logo-dark.png';
 import Image from 'next/image';
 import PopupVideo from '../video/PopupVideo';
 import { Link } from 'react-scroll';
