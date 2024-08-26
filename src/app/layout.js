@@ -51,7 +51,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <Script id="drift">
         {`
-        "use strict";
+        " use strict ";
          !function() {
     var t = window.driftt = window.drift = window.driftt || [];
     if (!t.init) {
