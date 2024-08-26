@@ -9,7 +9,7 @@ const MainMenu = () => {
     useEffect(() => {
         const handleScroll = () => {
           const sections = document.querySelectorAll('.section');
-          const navLinks = document.querySelectorAll('.main-nav-link');
+          const navLinks = document.querySelectorAll('.main-nav-link ');
           let currentSection = 'home';
     
           sections.forEach(section => {
