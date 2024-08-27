@@ -3040,6 +3040,14 @@ header.header-fixed .video-play-button.theme:after {
                 background-clip: text !important;
                 color: transparent !important ;  /* Link color on hover */
   }
+  @media (max-width: 1000px) {
+	.main-container {
+		display: none;
+	}
+	.main-nav-container {
+		display: none;
+	}
+  }
 
 /* ============================================================== 
     # Breadcrumb Styles

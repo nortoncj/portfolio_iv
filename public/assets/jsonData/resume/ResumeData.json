@@ -84,14 +84,14 @@
     "educationData": [
         {
             "id": 1,
-            "title": "AS - Electrical Engineering",
+            "title": "AS - Computer Engineering",
             "subTitle": "University of South Florida",
             "timeSpan": "2019",
             "text": "Learned the basics of coding languages, Circuitry and Embedded Systems"
         },
         {
             "id": 2,
-            "title": "BSc in Computer Engineering",
+            "title": "BSc in Electrical Engineering",
             "subTitle": "Florida International University",
             "timeSpan": "2021",
             "text": "Learned object oriented programming, data analytics, and basic algorithms"
