@@ -18,32 +18,39 @@ import { Manrope } from "next/font/google";
 import { ToastContainer } from "react-toastify";
 import Dependency from "@/components/utilities/Dependency";
 import imageUrl from "@/assets/img/favicon.png";
+import canonicalUrl from "@/assets/img/favicon.png";
 
 
 const manrope = Manrope({ subsets: ["latin"] });
 
-export const metadata = (title, description, imageUrl) => ({
-  title: "Chris Norton | Web Developer",
-  description: "Web Developer | Data Analyst Portfolio",
+export const metadata = (title, description, imageUrl, canonicalUrl) => ({
+  title: title || "Chris Norton | Web Developer",
+  description: description || "Web Developer | Data Analyst Portfolio",
+  canonical: canonicalUrl,
   openGraph: {
-      title: "Chris Norton | Web Developer",
-      description: "Web Developer | Data Analyst Portfolio",
-      images: [
-          {
-              url: imageUrl,
-              width: 800,
-              height: 600,
-              alt: `${title} - Image`,
-          },
-      ],
-      type: 'website',
+    title: title || "Chris Norton | Web Developer",
+    description: description || "Web Developer | Data Analyst Portfolio",
+    images: [
+      {
+        url: imageUrl,
+        width: 1200,
+        height: 630,
+        alt: `${title} - Image`,
+      },
+    ],
+    type: 'website',
+    locale: 'en_US',
+    url: canonicalUrl,
+    siteName: 'Chris Norton Portfolio',
   },
   twitter: {
-      card: 'summary_large_image',
-      title: "Chris Norton | Web Developer",
-      description:  "Web Developer | Data Analyst Portfolio",
-      images: imageUrl,
+    card: 'summary_large_image',
+    site: '@CodemanChris',
+    title: title || "Chris Norton | Web Developer",
+    description: description || "Web Developer | Data Analyst Portfolio",
+    images: [imageUrl],
   },
+  // ... existing code ...
 });
 
 export default function RootLayout({ children }) {
