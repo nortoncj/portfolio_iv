@@ -133,7 +133,9 @@ export default function RootLayout({ children }) {
             gtag("config", "G-S5ZBPZ262W");
         `}
       </Script>
-      <meta name="msvalidate.01" content="60B32BAF819A3A3DD7BD39D7BCDBDA21" />
+      <Head>
+        <meta name="msvalidate.01" content="60B32BAF819A3A3DD7BD39D7BCDBDA21" />
+      </Head>
       <body className={`${manrope.className}`}>
         <ToastContainer />
         <Dependency />
