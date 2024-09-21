@@ -34,7 +34,7 @@ const Banner = () => {
                   </span>
                 </h3>
                 <div className="button mt-55">
-                  <Link className="btn btn-md circle btn-dark" target="_blank" href="https://docs.google.com/document/d/1eTmLsZ3AbMY3njWI265Y4WPVeXqiAXka0bAiOi17vlI/edit?usp=sharing">
+                  <Link className="btn btn-md circle btn-dark" target="_blank" href="https://docs.google.com/document/d/16Cp_Q5bbbjoZqqiHHOPIa31t2y3S4b2StQtIFcnjrFY/edit?usp=sharing">
                     My Resume
                   </Link>
                 </div>
