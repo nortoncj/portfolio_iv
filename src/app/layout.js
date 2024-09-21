@@ -50,6 +50,14 @@ export const metadata = (title, description, imageUrl, canonicalUrl) => ({
     description: description || "Web Developer | Data Analyst Portfolio",
     images: [imageUrl],
   },
+  verification: {
+    "msvalidate.01": "60B32BAF819A3A3DD7BD39D7BCDBDA21", // Bing Webmaster Tools verification
+  },
+  "bing:search_scope": "website",
+  "msnbot": "index,follow",
+  "msnbot-media": "index,follow",
+  "slurp": "index,follow",
+  "slurp-media": "index,follow",
   other: {
     "msapplication-TileColor": "#ffffff", // Customize color as needed
     "msapplication-TileImage": "/ms-icon-144x144.png", // Path to your Windows 8 tile image
@@ -61,14 +69,8 @@ export const metadata = (title, description, imageUrl, canonicalUrl) => ({
     "max-image-preview": "large",
     "max-video-preview": -1,
   },
-  verification: {
-    "msvalidate.01": "60B32BAF819A3A3DD7BD39D7BCDBDA21", // Bing Webmaster Tools verification
-  },
-  "bing:search_scope": "website",
-  "msnbot": "index,follow",
-  "msnbot-media": "index,follow",
-  "slurp": "index,follow",
-  "slurp-media": "index,follow",
+  
+  
 
 });
 
