@@ -1,4 +1,5 @@
 import Script from "next/script";
+import Head from "next/head";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "swiper/css";
 import "swiper/css/bundle";
