@@ -37,7 +37,7 @@ const HeaderMobile = () => {
                                     <Link className="smooth-menu" to="home">Home</Link>
                                 </li>
                                 <li>
-                                    <Link className="smooth-menu" to="expertise">expertise</Link>
+                                    <Link className="smooth-menu" to="skills">Skills</Link>
                                 </li>
                                 <li>
                                     <Link className="smooth-menu" to="portfolio">portfolio</Link>
@@ -45,9 +45,9 @@ const HeaderMobile = () => {
                                 <li>
                                     <Link className="smooth-menu" to="about">about</Link>
                                 </li>
-                                <li>
+                                {/* <li>
                                     <Link className="smooth-menu" to="blog">blog</Link>
-                                </li>
+                                </li> */}
                                 {/* <li>
                                     <Link className="smooth-menu" to="contact">contact</Link>
                                 </li> */}

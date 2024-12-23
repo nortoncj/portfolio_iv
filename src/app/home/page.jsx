@@ -34,7 +34,6 @@ const Home = () => {
             <Resume2 />
             <About />
             <Portfolio />
-            
             {/* <Resume /> */}
             {/* <Price /> */}
             {/* <Brand /> */}
