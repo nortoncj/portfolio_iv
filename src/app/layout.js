@@ -143,6 +143,7 @@ export default function RootLayout({ children }) {
         {children}
         <div id="modal-root-content" />
       </body>
+      <script async data-uid="c755c92b15" src="https://chrisnortonjr.kit.com/c755c92b15/index.js"></script>
     </html>
   );
 }
