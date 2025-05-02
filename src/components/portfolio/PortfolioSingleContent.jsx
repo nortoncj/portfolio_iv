@@ -24,7 +24,6 @@ const PortfolioSingleContent = () => {
                   className="thumb-video align-self-center mx-auto  "
                   src={`https://www.youtube.com/embed/${project.video}`}
                   title="Embedded video"
-                  
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
@@ -63,60 +62,79 @@ const PortfolioSingleContent = () => {
                       </ul>
                       <ul className="social project-links">
                         <ul>
-                                        <li>
-                                            <h4>Links:</h4>
-                                        </li>
-                                        
-                                        <SocialShareStyle3 link={project.link} git={project.git} />
-                                        </ul>
-                                        <ul>
-                                        <li>
-                                            <h4>Share:</h4>
-                                        </li>
-                                        <SocialShareStyle2 />
-                                        </ul>
-                                        
-                                    </ul>
+                          <li>
+                            <h4>Links:</h4>
+                          </li>
+
+                          <SocialShareStyle3
+                            link={project.link}
+                            git={project.git}
+                          />
+                        </ul>
+                        <ul>
+                          <li>
+                            <h4>Share:</h4>
+                          </li>
+                          <SocialShareStyle2 />
+                        </ul>
+                      </ul>
                     </div>
                   </div>
                   <h2>Overview</h2>
-                  <p>
-                  {project.description || "description"}
-                  </p>
+                  <p>{project.description || "description"}</p>
                   <ul className="check-list mt-40">
-                  { project.username && (
-                                <li>
-                                    <h4>Login</h4>
-                                    <p>
-                                        {project?.username || null}
-                                    </p>
-                                    <p>{project?.password || null}</p>
-                                </li>)}
-                                { project.challenges && (
-                                <li>
-                                    <h4>Challenges</h4>
-                                    <p>
-                                        {project.challenges ||"no challenges"}
-                                    </p>
-                                </li>)}
+                    {project.username && (
+                      <li>
+                        <h4>Login</h4>
+                        <p>{project?.username || null}</p>
+                        <p>{project?.password || null}</p>
+                      </li>
+                    )}
+                    {project.challenges && (
+                      <li>
+                        <h4>Challenges</h4>
+                        <div className="grid grid-cols-2 gap-4">
+                          {project.challenges &&
+                          Array.isArray(project.challenges) &&
+                          project.challenges.length > 0 ? (
+                            project.challenges.map((challenge, index) => (
+                              <ul key={index} className="mb-2">
+                                <li className="list-disc ml-5">{challenge}</li>
+                              </ul>
+                            ))
+                          ) : (
+                            <p>No challenges</p>
+                          )}
+                        </div>
+                      </li>
+                    )}
                   </ul>
                 </div>
               </div>
             </div>
             <div className="main-content mt-40">
-              <p>
-              {project.notes || null}
-              </p>
+              <p>{project.notes || null}</p>
               <div className="row">
-              {project.thumb1 &&(
-                        <div className="col-lg-6 col-md-6">
-                            <Image src={thumb1} alt="Thumb" />
-                        </div>)}
-                        {project.thumb2 &&(
-                        <div className="col-lg-6 col-md-6">
-                            <Image src={thumb2} alt="Thumb" />
-                        </div>
-                        )}
+                {project.thumb1 && (
+                  <div className="col-lg-6 col-md-6">
+                    <Image
+                      height={100}
+                      width={400}
+                      src={`/assets/img/thumb/${project?.thumb1}` || thumb1}
+                      alt="Thumb"
+                    />
+                  </div>
+                )}
+                {project.thumb2 && (
+                  <div className="col-lg-6 col-md-6">
+                    <Image
+                      height={100}
+                      width={400}
+                      src={`/assets/img/thumb/${project?.thumb2}` || thumb2}
+                      alt="Thumb"
+                    />
+                  </div>
+                )}
               </div>
             </div>
           </div>

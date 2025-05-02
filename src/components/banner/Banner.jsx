@@ -14,6 +14,7 @@ const Banner = () => {
     '<b className="">Web Developer</b>',
     '<b className="">Data Analyst</b>',
     '<b className="">Content Editor</b>',
+    '<b className="">IOT Engineer</b>',
   ];
 
   return (
