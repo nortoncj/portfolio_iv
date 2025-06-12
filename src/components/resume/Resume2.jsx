@@ -17,7 +17,7 @@ const Resume2 = () => {
           <div  className="experience-content-box">
             <div  className="row">
               <div className="col-xl-10 offset-xl-1">
-                <div className="nav nav-tabs text-center resume-tab-navs" id="nav-tab" role="tablist">
+                <div className="nav nav-tabs text-center portfolio-tab-navs" id="nav-tab" role="tablist">
                   {/* <button
                     className="nav-link "
                     id="nav-id-1"

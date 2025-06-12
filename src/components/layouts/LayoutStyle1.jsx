@@ -13,3 +13,4 @@ const LayoutStyle1 = ({ children }) => {
 };
 
 export default LayoutStyle1;
+
