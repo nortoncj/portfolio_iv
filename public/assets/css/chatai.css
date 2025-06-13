@@ -1,0 +1,18 @@
+.chat-container {
+    margin: 100px 50px;
+    align-items: center;
+    align-content:center;
+    align-self: center;
+    padding:auto;
+    display: flex;
+}
+
+.chat-title{
+    font-weight: 600;
+    font-size: 3rem;
+    padding-top: 20px;
+}
+.chat-caption{
+    font-weight: 300;
+    font-size: 2rem;
+}

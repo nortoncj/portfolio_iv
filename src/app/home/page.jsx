@@ -2,6 +2,7 @@ import About from '@/components/about/About';
 import Banner from '@/components/banner/Banner';
 import Blog from '@/components/blog/Blog';
 import Brand from '@/components/brand/Brand';
+import ChatAI from '@/components/chat/ChatAI';
 import Contact from '@/components/contact/Contact';
 import Footer from '@/components/footer/Footer';
 import HeaderMobile from '@/components/header/HeaderMobile';
@@ -32,6 +33,7 @@ const Home = () => {
             <MainMenu />
             <Banner />
             <Resume2 />
+            <ChatAI />
             <About />
             <Portfolio />
             {/* <Resume /> */}
