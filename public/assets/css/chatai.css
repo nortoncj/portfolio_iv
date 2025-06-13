@@ -59,12 +59,12 @@
     }
     .chat-container{
         flex-direction: column;
-        margin-bottom: 600px;
+        margin-bottom: 700px;
     }
     .chatbox{
         margin: auto;
         height: 600px;
-        width: 400px;
+        width: 350px;
         margin: 0 50px 0px 0px;
         align-items: center;
         align-content:center;
