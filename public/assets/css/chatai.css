@@ -1,11 +1,15 @@
 .chat-container {
-    margin: 100px 50px;
-    align-items: center;
-    align-content:center;
-    align-self: center;
+   
     padding:auto;
     display: flex;
+    width: 100%;
+    position: relative;
+  width: 100%;
+  padding-bottom: 75%; /* Adjust this for different aspect ratios */
+  padding-top: 20px;
+  height: 0;
 }
+
 
 .chat-title{
     font-weight: 600;
@@ -15,4 +19,61 @@
 .chat-caption{
     font-weight: 300;
     font-size: 2rem;
+    width: 300px;
+}
+.chatbox{
+    height: 600px;
+    width: 400px;
+}
+/* tablet */
+@media screen and (max-width:1200px) {
+    .chat-container{
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    .chat-caption{
+        font-size: 1rem;
+        width: 300px;
+    }
+    .chatbox {
+        margin: auto;
+        height: 600px;
+        width: 400px;
+        margin: 0 200px 0px 200px;
+        align-items: center;
+        align-content:center;
+        align-self: center;
+    }
+}
+.chat-center {
+    margin:auto;
+    align-items: center;
+    align-content:center;
+    align-self: center;
+}
+
+
+@media screen and (max-width: 512px) {
+    .chat-title{
+        padding-top: 40px;
+    }
+    .chat-container{
+        flex-direction: column;
+        margin-bottom: 600px;
+    }
+    .chatbox{
+        margin: auto;
+        height: 600px;
+        width: 400px;
+        margin: 0 50px 0px 0px;
+        align-items: center;
+        align-content:center;
+        align-self: center;
+        
+    }
+    .chat-caption{
+        font-size: 1rem;
+        width: 300px;
+    }
+    
 }

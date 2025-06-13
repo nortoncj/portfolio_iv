@@ -2,7 +2,7 @@ import "@/assets/css/chatai.css";
 const ChatAI = () => {
     return (
       <>
-        <div className="section">
+        <div className="chat-section section">
           <div className="container ">
             <div className="chat-container">
               <div className="row align-center">
@@ -10,11 +10,11 @@ const ChatAI = () => {
                 <p className="chat-caption">Ask me questions about my career</p>
               </div>
               <div className="">
-              <iframe
+                <iframe
+                  className="chatbox"
                 src="https://chrisnortonjr-chris-ai.hf.space"
                 frameborder="0"
-                width="750"
-                  height="600"
+                  
               ></iframe></div>
             </div>
           </div>
