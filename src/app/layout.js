@@ -23,7 +23,7 @@ const manrope = Manrope({ subsets: ["latin"] });
 
 // Define metadata as a static object instead of a function
 export const metadata = {
-  title: "Chris Norton | Web Developer",
+  title: "Chris Norton | Software Engineer",
   description: "Web Developer | Data Analyst Portfolio",
   metadataBase: new URL("https://chrisnorton.dev"), // Add your actual domain
   openGraph: {
@@ -34,19 +34,19 @@ export const metadata = {
         url: faviconImage.src,
         width: 1200,
         height: 630,
-        alt: "Chris Norton - Web Developer",
+        alt: "Chris Norton - Software Engineer",
       },
     ],
     type: "website",
     locale: "en_US",
-    url: "https://chrisnorton.dev", // Add your actual domain
+    url: "https://chrisnortonjr.com", // Add your actual domain
     siteName: "Chris Norton Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    site: "@CodemanChris",
-    title: "Chris Norton | Web Developer",
-    description: "Web Developer | Data Analyst Portfolio",
+    site: "@TheWebTechNinja",
+    title: "Chris Norton | Software Engineer",
+    description: "Software Engineer | Data Analyst Portfolio",
     images: [faviconImage.src],
   },
   verification: {

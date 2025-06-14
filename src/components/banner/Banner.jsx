@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import { useState } from "react";
 import shape4 from "@/assets/img/shape/4.png";
 import shape7 from "@/assets/img/shape/7.png";
 import shape72 from "@/assets/img/shape/72.png";
@@ -8,6 +9,8 @@ import Link from "next/link";
 import stand from "@/assets/img/illustration/stand2.png";
 import SocialShare from "../utilities/SocialShare";
 import Fader from "./Fader";
+import Modal from "../modal/mainModal";
+import ChatAI from "../chat/ChatAI";
 
 const Banner = () => {
   const textLines = [
@@ -17,6 +20,16 @@ const Banner = () => {
     '<b className="">IOT Engineer</b>',
   ];
 
+  const [showModal, setShowModal] = useState(false);
+
+  function handleOpenModal() {
+    setShowModal(true);
+  }
+
+  function handleCloseModal() {
+    setShowModal(false);
+  }
+
   return (
     <>
       <div className="auto-height bg-fixed banner-style-one section" id="home">
@@ -24,25 +37,47 @@ const Banner = () => {
           <div className="double-items">
             <div className="row align-center">
               <div className="col-lg-6 info">
-                <h1 className="text-invisible moving-animation-title">DEVELOPER</h1>
+                <h1 className="text-invisible moving-animation-title">
+                  DEVELOPER
+                </h1>
                 <h2>
-                  Strategic <Image className="hand" src={shape4} alt="Icon" /> Solutions
+                  Strategic <Image className="hand" src={shape4} alt="Icon" />{" "}
+                  Solutions
                 </h2>
                 <h3 className="title">
                   <span className="header-caption" id="page-top">
                     <Fader />
-                   
                   </span>
                 </h3>
                 <div className="button mt-55">
-                  <Link className="btn btn-md circle btn-dark" target="_blank" href="https://docs.google.com/document/d/16Cp_Q5bbbjoZqqiHHOPIa31t2y3S4b2StQtIFcnjrFY/edit?usp=sharing">
+                  <Link
+                    className="btn btn-md circle btn-dark"
+                    target="_blank"
+                    href="https://docs.google.com/document/d/16Cp_Q5bbbjoZqqiHHOPIa31t2y3S4b2StQtIFcnjrFY/edit?usp=sharing"
+                  >
                     My Resume
                   </Link>
+                  <button
+                    className="btn btn-md mx-5  circle btn-main"
+                    target="_blank"
+                    onClick={handleOpenModal}
+                  >
+                    Chris AI
+                  </button>
+                  {showModal && (
+                    <Modal onClose={handleCloseModal}>
+                      <ChatAI />
+                    </Modal>
+                  )}
                 </div>
               </div>
-              <div  className="col-lg-6 thumb" height="2000px" data-wow-delay="900ms">
-                <Image  className="wow fadeIn" src={stand} alt="Thumb" />
-{/* 
+              <div
+                className="col-lg-6 thumb"
+                height="2000px"
+                data-wow-delay="900ms"
+              >
+                <Image className="wow fadeIn" src={stand} alt="Thumb" />
+                {/* 
                 <div className="shape-center3">
                   <Image className="smoke3" src={shape7} alt="smoke3" />
                 </div>

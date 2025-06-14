@@ -33,9 +33,10 @@ const Home = () => {
             <MainMenu />
             <Banner />
             <Resume2 />
-            <ChatAI />
+            
             <About />
             <Portfolio />
+            
             {/* <Resume /> */}
             {/* <Price /> */}
             {/* <Brand /> */}

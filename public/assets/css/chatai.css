@@ -1,10 +1,11 @@
 .chat-container {
-   
-    padding:auto;
-    display: flex;
+   margin:auto;
+    align-items: center;
+        align-content:center;
+        align-self: center;
+    /* display: flex; */
     width: 100%;
     position: relative;
-  width: 100%;
   padding-bottom: 75%; /* Adjust this for different aspect ratios */
   padding-top: 20px;
   height: 0;
@@ -15,15 +16,42 @@
     font-weight: 600;
     font-size: 3rem;
     padding-top: 20px;
+    margin:auto;
+    align-items: center;
+        align-content:center;
+        align-self: center;
+        text-align: center;
+        text-transform: uppercase;
+        color: var(--color-primary);
+        font-weight: 700;
+        background: linear-gradient(
+            45deg,
+            var(--color-secondary) 0%,
+            var(--color-primary) 70%
+          );
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
 }
 .chat-caption{
     font-weight: 300;
     font-size: 2rem;
-    width: 300px;
+    /* width: 300px; */
+    margin:auto;
+    padding:auto;
+    align-items: center;
+        align-content:center;
+        align-self: center;
+        text-align: center;
 }
 .chatbox{
     height: 600px;
-    width: 400px;
+    width: 800px;
+    margin-left: 15%;
+    align-items: center;
+        align-content:center;
+        align-self: center;
+        text-align: center;
 }
 /* tablet */
 @media screen and (max-width:1200px) {
@@ -65,7 +93,7 @@
         margin: auto;
         height: 600px;
         width: 350px;
-        margin: 0 50px 0px 0px;
+        margin: auto;
         align-items: center;
         align-content:center;
         align-self: center;

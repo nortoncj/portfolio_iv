@@ -8,7 +8,7 @@ const Modal = ({ children }) => {
   const router = useRouter();
 
   function onHide() {
-    router.back();
+    router.refresh()
   }
 
   useEffect(() => {

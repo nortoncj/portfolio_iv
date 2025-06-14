@@ -420,6 +420,7 @@ p {
     max-width: 540px;
     width: 100%;
   }
+  
 }
 
 @media (min-width: 768px) {
@@ -1759,6 +1760,7 @@ body.bg-fixed,
   width: 100%;
 }
 
+
 .btn.btn-border-dark {
   border: 2px solid var(--dark);
   background: transparent;
@@ -1972,7 +1974,12 @@ body.bg-fixed,
   -webkit-transform: translateY(-45%) skew(25deg) scale(1.2);
   transform: translateY(-45%) skew(25deg) scale(1.2);
 }
-
+.btn.btn-main {
+  color: var(--white);
+  border: none;
+  background: var(--bg-gradient);
+  border: 2px solid transparent;
+}
 .btn.btn-light {
   color: var(--color-heading);
   border: none;
@@ -6639,6 +6646,10 @@ footer {
   }
 
   .banner-style-one .button {
+    margin-top: 40px;
+  }
+
+  .btn-main {
     margin-top: 40px;
   }
 
