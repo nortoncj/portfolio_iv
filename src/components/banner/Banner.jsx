@@ -6,7 +6,7 @@ import shape7 from "@/assets/img/shape/7.png";
 import shape72 from "@/assets/img/shape/72.png";
 import Image from "next/image";
 import Link from "next/link";
-import stand from "@/assets/img/illustration/stand2.png";
+import stand from "@/assets/img/illustration/stand.png";
 import SocialShare from "../utilities/SocialShare";
 import Fader from "./Fader";
 import Modal from "../modal/mainModal";
