@@ -1,114 +1,139 @@
 {
-    "biographyData": [
-        {
-            "id": 1,
-            "title": "Name",
-            "info": "Chris Norton"
-        },
-        {
-            "id": 2,
-            "title": "Hobbies",
-            "info": "Family, Music, Hiking, Nature"
-        },
-        {
-            "id": 3,
-            "title": "Years in the Industry",
-            "info": "4"
-        },
-        {
-            "id": 4,
-            "title": "Location",
-            "info": "USA"
-        },
-        {
-            "id": 5,
-            "title": "Email",
-            "info": "contact@chrisnortonjr.com"
-        },
-        {
-            "id": 8,
-            "title": "Status",
-            "info": "Available"
-        }
-    ],
-    "skillData": [
-        {
-            "id": 1,
-            "icon": "fab fa-laravel",
-            "title": "Laravel / PHP",
-            "end": 75
-        },
-        {
-            "id": 2,
-            "icon": "fab fa-react",
-            "title": "React",
-            "end": 84
-        },
-        {
-            "id": 3,
-            "icon": "fab fa-html5",
-            "title": "HTML",
-            "end": 92
-        },
-        {
-            "id": 4,
-            "icon": "fab fa-css3",
-            "title": "CSS",
-            "end": 92
-        },
-        {
-            "id": 5,
-            "icon": "fa-brands fa-aws",
-            "title": "AWS",
-            "end": 92
-        },
-        {
-            "id": 6,
-            "icon": "fa-brands fa-microsoft",
-            "title": "Azure",
-            "end": 92
-        },
-        {
-            "id": 7,
-            "icon": "fab fa-node",
-            "title": "JavaScript",
-            "end": 92
-        },
-        {
-            "id": 7,
-            "icon": "fab fa-wordpress",
-            "title": "Wordpress",
-            "end": 92
-        }
-    ],
-    "educationData": [
-        {
-            "id": 1,
-            "title": "AS - Computer Engineering",
-            "subTitle": "University of South Florida",
-            "timeSpan": "2019",
-            "text": "Learned the basics of coding languages, Circuitry and Embedded Systems"
-        },
-        {
-            "id": 2,
-            "title": "BSc in Electrical Engineering",
-            "subTitle": "Florida International University",
-            "timeSpan": "2021",
-            "text": "Learned object oriented programming, data analytics, and basic algorithms"
-        },
-        {
-            "id": 3,
-            "title": "AWS Certified Cloud Practitioner",
-            "subTitle": "AWS / Pearson",
-            "timeSpan": "2021 - 2025",
-            "text": "Learned how to host apps and emails using EC2, S3 and Code Pipelines as well use Lambda Functions"
-        },
-        {
-            "id": 4,
-            "title": "Azure AI Fundamentals",
-            "subTitle": "Microsoft",
-            "timeSpan": "2024 - Present",
-            "text": "Participated in training that utilizes web api and machine learning tactics for computer vision, generative ai and LLM"
-        }
-    ]
+  "biographyData": [
+    {
+      "id": 1,
+      "title": "Name",
+      "info": "Chris Norton"
+    },
+    {
+      "id": 2,
+      "title": "Hobbies",
+      "info": "Family, Music, Hiking, Nature"
+    },
+    {
+      "id": 3,
+      "title": "Years in the Industry",
+      "info": "4"
+    },
+    {
+      "id": 4,
+      "title": "Location",
+      "info": "USA"
+    },
+    {
+      "id": 5,
+      "title": "Email",
+      "info": "contact@chrisnortonjr.com"
+    },
+    {
+      "id": 8,
+      "title": "Status",
+      "info": "Available"
+    }
+  ],
+  "skillData": [
+    {
+      "id": 1,
+      "icon": "fab fa-html5",
+      "title": "HTML",
+      "end": 92
+    },
+    {
+      "id": 2,
+      "icon": "fab fa-css3",
+      "title": "CSS",
+      "end": 92
+    },
+    {
+      "id": 3,
+      "icon": "fab fa-node",
+      "title": "JavaScript",
+      "end": 92
+    },
+    {
+      "id": 4,
+      "icon": "fa-brands fa-mailchimp",
+      "title": "Mailchimp",
+      "end": 92
+    },
+    {
+      "id": 5,
+      "icon": "fa-solid fa-water",
+      "title": "Liquid",
+      "end": 85
+    },
+    {
+      "id": 6,
+      "icon": "fa-solid fa-list-radio",
+      "title": "MJML",
+      "end": 90
+    },
+    {
+      "id": 7,
+      "icon": "fab fa-wordpress",
+      "title": "Wordpress",
+      "end": 92
+    },
+    {
+      "id": 8,
+      "icon": "fab fa-shopify",
+      "title": "Shopify",
+      "end": 80
+    },
+    {
+      "id": 9,
+      "icon": "fab fa-laravel",
+      "title": "Laravel / PHP",
+      "end": 75
+    },
+    {
+      "id": 10,
+      "icon": "fab fa-react",
+      "title": "React",
+      "end": 84
+    },
+
+    {
+      "id": 11,
+      "icon": "fa-brands fa-aws",
+      "title": "AWS",
+      "end": 92
+    },
+    {
+      "id": 12,
+      "icon": "fa-brands fa-microsoft",
+      "title": "Azure",
+      "end": 92
+    }
+  ],
+  "educationData": [
+    {
+      "id": 1,
+      "title": "AS - Computer Engineering",
+      "subTitle": "University of South Florida",
+      "timeSpan": "2019",
+      "text": "Learned the basics of coding languages ( Java, C), Electronics, Logic Design, Controls Systems, and Circuit Analysis"
+    },
+    {
+      "id": 2,
+      "title": "BSc in Electrical Engineering",
+      "subTitle": "Florida International University",
+      "timeSpan": "2025",
+      "text": "Learned OOP, Embedded Systems, Signal Processing with MatLab, Wireless Communications Systems, Data Analysis with Python "
+    },
+    {
+      "id": 3,
+      "title": "AWS Certified Cloud Practitioner",
+      "subTitle": "AWS / Pearson",
+      "timeSpan": "2021 - 2025",
+      "text": "Learned how to host apps and emails using EC2, S3 and Code Pipelines, Code Commit as well use Lambda Functions"
+    },
+    {
+      "id": 4,
+      "title": "Azure AI Fundamentals",
+      "subTitle": "Microsoft",
+      "timeSpan": "2024 - Present",
+      "text": "Participated in training that utilizes web api and machine learning tactics for computer vision, generative ai and LLM"
+    }
+  ]
 }

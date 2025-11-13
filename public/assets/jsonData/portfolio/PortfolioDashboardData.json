@@ -1,37 +1,36 @@
 [
-    {
-      "id": 1,
-      "thumb": "1.jpg",
-      "video": "usIyITVMprw?si",
-      "subTitle": "Tableau Dashboard",
-      "title": "Digital Marketing",
-      "arrowIcon": "fas fa-arrow-right",
-      "date": "July 2024",
-      "location": "Tampa, Florida",
-      "description": "Just doing a side project for practice. I downloaded random data from a website and organized it in a way that showed different KPI measurements in Tableau.",
-      "notes": "",
-      "challenges": "Aligning the about section the sections.",
-      "thumb1": "",
-      "thumb2": "",
-      "link": "",
-      "git": "https://github.com/nortoncj/web-marketing-tab"
-    },
-    {
-      "id": 2,
-      "thumb": "3.jpg",
-      "video": "DzeOil1pBgI?si",
-      "subTitle": "Power BI Dashboard",
-      "title": "Real Estate",
-      "arrowIcon": "fas fa-arrow-right",
-      "date": "Sept 2023",
-      "location": "Miami, Florida",
-      "description": "Just doing a side project for practice. I downloaded random data from a website and organized it in a way that showed different KPI measurements in Tableau.",
-      "notes": "",
-      "challenges": "The data required a lot of cleaning.",
-      "thumb1": "",
-      "thumb2": "",
-      "link": "",
-      "git": "https://github.com/nortoncj/property-dash"
-    }
-  ]
-  
+  {
+    "id": 9,
+    "thumb": "1.jpg",
+    "video": "usIyITVMprw?si",
+    "subTitle": "Tableau Dashboard",
+    "title": "Digital Marketing",
+    "arrowIcon": "fas fa-arrow-right",
+    "date": "July 2024",
+    "location": "Tampa, Florida",
+    "description": "Just doing a side project for practice. I downloaded random data from a website and organized it in a way that showed different KPI measurements in Tableau.",
+    "notes": "",
+    "challenges": "Aligning the about section the sections.",
+    "thumb1": "",
+    "thumb2": "",
+    "link": "",
+    "git": "https://github.com/nortoncj/web-marketing-tab"
+  },
+  {
+    "id": 10,
+    "thumb": "3.jpg",
+    "video": "DzeOil1pBgI?si",
+    "subTitle": "Power BI Dashboard",
+    "title": "Real Estate",
+    "arrowIcon": "fas fa-arrow-right",
+    "date": "Sept 2023",
+    "location": "Miami, Florida",
+    "description": "Project I did for a real estate agent. I sourced the data from a public website and organized it in a way that showed different KPI measurements in Tableau.",
+    "notes": "",
+    "challenges": "The data required a lot of cleaning.",
+    "thumb1": "",
+    "thumb2": "",
+    "link": "",
+    "git": "https://github.com/nortoncj/property-dash"
+  }
+]

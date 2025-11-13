@@ -420,7 +420,6 @@ p {
     max-width: 540px;
     width: 100%;
   }
-  
 }
 
 @media (min-width: 768px) {
@@ -1759,7 +1758,6 @@ body.bg-fixed,
 .btn.btn-border.animation:hover::after {
   width: 100%;
 }
-
 
 .btn.btn-border-dark {
   border: 2px solid var(--dark);
@@ -4914,7 +4912,6 @@ header.header-fixed .video-play-button.theme:after {
     height: 20rem;
     width: 30rem;
   }
-  
 }
 
 .project-info {
@@ -5084,7 +5081,6 @@ header.header-fixed .video-play-button.theme:after {
   font-size: 10px;
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
-
 
 /* ============================================================== 
      # Typed Text
@@ -5571,7 +5567,8 @@ ul.biography-table li p {
   background: #2f393d;
 }
 
-.skill-table i.fa-laravel {
+.skill-table i.fa-laravel,
+.skill-table i.fa-list-radio {
   background: #fb503b;
 }
 
@@ -5579,11 +5576,18 @@ ul.biography-table li p {
   background: #e34c26;
 }
 
-.skill-table i.fa-react {
+.skill-table i.fa-react,
+.skill-table i.fa-water {
   background: #61dbfb;
 }
-.skill-table li i.fa-node {
+.skill-table li i.fa-node,
+.skill-table li i.fa-shopify {
   background: #96bf48;
+}
+
+.skill-table li i.fa-mailchimp {
+  color: black;
+  background: #ffd43b;
 }
 
 .education-table {

@@ -28,7 +28,7 @@ const SinglePortfolio = ({ portfolio }) => {
         </Link>
       </>
     );
-  }  else {
+  } else {
     return (
       <Link href={link} target="_blank" rel="noopener">
         <span className="pf-item">

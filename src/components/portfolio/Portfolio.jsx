@@ -1,8 +1,8 @@
 import React from "react";
 import PortfolioData from "@/assets/jsonData/portfolio/PortfolioData.json";
-import DashboardData from "@/assets/jsonData/portfolio/PortfolioDashboardData.json"
-import EmailData from "@/assets/jsonData/portfolio/PortfolioEmailData.json"
-import WebsiteData from "@/assets/jsonData/portfolio/PortfolioWebsiteData.json"
+import DashboardData from "@/assets/jsonData/portfolio/PortfolioDashboardData.json";
+import EmailData from "@/assets/jsonData/portfolio/PortfolioEmailData.json";
+import WebsiteData from "@/assets/jsonData/portfolio/PortfolioWebsiteData.json";
 import SinglePortfolio from "./SinglePortfolio";
 import Image from "next/image";
 import FactData from "@/assets/jsonData/fact/FactData.json";
@@ -63,7 +63,7 @@ const Portfolio = () => {
                 aria-controls="tab-1"
                 aria-selected="false"
               >
-                All
+                Featured
               </button>
               <button
                 className="nav-link"
@@ -78,60 +78,93 @@ const Portfolio = () => {
                 Dashboards
               </button>
               <button
-                    className="nav-link "
-                    id="nav-id-3"
-                    data-bs-toggle="tab"
-                    data-bs-target="#tab-3"
-                    type="button"
-                    role="tab"
-                    aria-controls="tab-3"
-                    aria-selected="false"
-                  >
-                    Emails 
-                  </button>
-                  <button
-                    className="nav-link "
-                    id="nav-id-4"
-                    data-bs-toggle="tab"
-                    data-bs-target="#tab-4"
-                    type="button"
-                    role="tab"
-                    aria-controls="tab-4"
-                    aria-selected="true"
-                  >
-                    Websites
-                  </button>
+                className="nav-link "
+                id="nav-id-3"
+                data-bs-toggle="tab"
+                data-bs-target="#tab-3"
+                type="button"
+                role="tab"
+                aria-controls="tab-3"
+                aria-selected="false"
+              >
+                Emails
+              </button>
+              <button
+                className="nav-link "
+                id="nav-id-4"
+                data-bs-toggle="tab"
+                data-bs-target="#tab-4"
+                type="button"
+                role="tab"
+                aria-controls="tab-4"
+                aria-selected="true"
+              >
+                Websites
+              </button>
             </div>
             <div className="col-md-12 gallery-content mt-2 mb--15">
               <div className="magnific-mix-gallery masonary">
                 <div id="portfolio-grid" className="gallery-items colums-3">
-                <div className="tab-content resume-tab-content" id="nav-tabContent">
-                    <div className="tab-pane fade show active" id="tab-1" role="tabpanel" aria-labelledby="nav-id-1">
-                        
-                    
-                  {PortfolioData.map((portfolio) => (
-                    <SinglePortfolio portfolio={portfolio} key={portfolio.id} />
-                  ))}
-                  </div>
+                  <div
+                    className="tab-content resume-tab-content"
+                    id="nav-tabContent"
+                  >
+                    <div
+                      className="tab-pane fade show active"
+                      id="tab-1"
+                      role="tabpanel"
+                      aria-labelledby="nav-id-1"
+                    >
+                      {PortfolioData.slice(0, 9).map((portfolio) => (
+                        <SinglePortfolio
+                          portfolio={portfolio}
+                          key={portfolio.id}
+                        />
+                      ))}
+                    </div>
 
-                  <div className="tab-pane fade " id="tab-2" role="tabpanel" aria-labelledby="nav-id-2">
-                        {DashboardData.map((portfolio) => (
-                    <SinglePortfolio portfolio={portfolio} key={portfolio.id} />
-                  ))}
-                  </div>
+                    <div
+                      className="tab-pane fade "
+                      id="tab-2"
+                      role="tabpanel"
+                      aria-labelledby="nav-id-2"
+                    >
+                      {DashboardData.map((portfolio) => (
+                        <SinglePortfolio
+                          portfolio={portfolio}
+                          key={portfolio.id}
+                        />
+                      ))}
+                    </div>
 
-                  <div className="tab-pane fade " id="tab-3" role="tabpanel" aria-labelledby="nav-id-3">
-                        {EmailData.map((portfolio) => (
-                    <SinglePortfolio portfolio={portfolio} key={portfolio.id} />
-                  ))}
-                  </div>
+                    <div
+                      className="tab-pane fade "
+                      id="tab-3"
+                      role="tabpanel"
+                      aria-labelledby="nav-id-3"
+                    >
+                      {EmailData.map((portfolio) => (
+                        <SinglePortfolio
+                          portfolio={portfolio}
+                          key={portfolio.id}
+                        />
+                      ))}
+                    </div>
 
-                  <div className="tab-pane fade " id="tab-4" role="tabpanel" aria-labelledby="nav-id-4">
-                        {WebsiteData.map((portfolio) => (
-                    <SinglePortfolio portfolio={portfolio} key={portfolio.id} />
-                  ))}
+                    <div
+                      className="tab-pane fade "
+                      id="tab-4"
+                      role="tabpanel"
+                      aria-labelledby="nav-id-4"
+                    >
+                      {WebsiteData.map((portfolio) => (
+                        <SinglePortfolio
+                          portfolio={portfolio}
+                          key={portfolio.id}
+                        />
+                      ))}
+                    </div>
                   </div>
-</div>
                 </div>
               </div>
             </div>
