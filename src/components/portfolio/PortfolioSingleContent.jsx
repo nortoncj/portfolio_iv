@@ -21,7 +21,8 @@ const PortfolioSingleContent = () => {
             <div className="project-thumb">
               {(project.video && (
                 <iframe
-                  className="thumb-video align-self-center mx-auto  "
+                  // className="thumb-video align-self-center mx-auto  "
+                  className="w-[80%] self-center mx-auto aspect-video z-60"
                   src={`https://www.youtube.com/embed/${project.video}`}
                   title="Embedded video"
                   frameBorder="0"

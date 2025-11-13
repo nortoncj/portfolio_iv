@@ -15,6 +15,7 @@
     "link": "https://vfwpost6827.org/",
     "git": ""
   },
+  
   {
     "id": 2,
     "thumb": "1_p.png",
@@ -140,7 +141,7 @@
   {
     "id": 9,
     "thumb": "1.jpg",
-    "video": "usIyITVMprw?si",
+    "video": "22F9guwtIQA",
     "subTitle": "Tableau Dashboard",
     "title": "Digital Marketing",
     "arrowIcon": "fas fa-arrow-right",
@@ -157,7 +158,7 @@
   {
     "id": 10,
     "thumb": "3.jpg",
-    "video": "DzeOil1pBgI?si",
+    "video": "DzeOil1pBgI",
     "subTitle": "Power BI Dashboard",
     "title": "Real Estate",
     "arrowIcon": "fas fa-arrow-right",
