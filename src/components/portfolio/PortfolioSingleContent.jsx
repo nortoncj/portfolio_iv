@@ -22,7 +22,7 @@ const PortfolioSingleContent = () => {
               {(project.video && (
                 <iframe
                   className="w-[80%] self-center mx-auto aspect-video z-60"
-                  src="https://www.youtube-nocookie.com/embed/22F9guwtIQA"
+                  src={`https://www.youtube-nocookie.com/embed/${project.video}`}
                   title="Embedded video"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
