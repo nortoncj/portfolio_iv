@@ -19,16 +19,16 @@ const ProjectDetailsContent = () => {
         <div className="project-thumb">
           {(project.video && (
             <iframe
-              // className="thumb-video align-self-center mx-auto"
               className="w-[80%] self-center mx-auto aspect-video z-60"
-              src={`https://www.youtube.com/embed/${project.video}`}
-              title={project.title}
+              src={`https://www.youtube-nocookie.com/embed/${project.video}`}
+              title="Embedded video"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+              style={{ border: 0 }}
               width={1000}
               height={515}
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            />
+            ></iframe>
           )) || (
             <Image
               src={

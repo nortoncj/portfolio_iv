@@ -21,13 +21,15 @@ const PortfolioSingleContent = () => {
             <div className="project-thumb">
               {(project.video && (
                 <iframe
-                  // className="thumb-video align-self-center mx-auto  "
                   className="w-[80%] self-center mx-auto aspect-video z-60"
-                  src={`https://www.youtube.com/embed/${project.video}`}
+                  src="https://www.youtube-nocookie.com/embed/22F9guwtIQA"
                   title="Embedded video"
                   frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   allowFullScreen
+                  style={{ border: 0 }}
+                  width={100}
+                  height={100}
                 ></iframe>
               )) || (
                 <Image
